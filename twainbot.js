@@ -1,6 +1,8 @@
+var fs = require('fs')
 var request = require('request')
 var waterfall = require('async').waterfall
 var Twitter = require('twitter')
+var cities = require('cities1000')
 var conf = require('./conf')
 
 var wordnikRequest = request.defaults({
@@ -9,7 +11,7 @@ var wordnikRequest = request.defaults({
 
 var wordnikKey = conf.get('wordnik_api_key')
 
-var wordnikParams = 'hasDictionaryDef=true&minCorpusCount=10&maxCorpusCount=-1&minDictionaryCount=10&maxDictionaryCount=-1&minLength=2&maxLength=12&api_key='
+var wordnikParams = 'hasDictionaryDef=true&minCorpusCount=20&maxCorpusCount=-1&minDictionaryCount=10&maxDictionaryCount=-1&minLength=2&maxLength=12&api_key='
 
 var createTweet = function () {
   waterfall([
@@ -83,12 +85,15 @@ var createTweet = function () {
     function endResult (words) {
       if (words) {
         postTweet('The most ' + words.adjective + ' ' + words.noun + ' ' + 'I ever spent was a ' + words.antonym + ' in ' + words.properNoun + '.')
+      } else {
+        log('no words found: ' + words)
       }
     }
   ])
 }
 
 var postTweet = function (quip) {
+
   var client = new Twitter({
     consumer_key: conf.get('consumer_key'),
     consumer_secret: conf.get('consumer_secret'),
@@ -97,10 +102,23 @@ var postTweet = function (quip) {
   })
 
   client.post('statuses/update', {status: quip}, function (error, tweet, response) {
-    if (error) throw error
+    if (error) {
+      log('tweeting: ' + error + ' ' + response)
+    }
 
+    log('tweeted: ' + quip)
     console.log(quip)
   })
+}
+
+var log = function (message) {
+  var date = new Date()
+  var datestring = date.getFullYear() + '' + (date.getMonth() + 1) + '' + date.getDay()
+
+  fs.appendFile(datestring + 'log.txt', date + ' - ' + message + '\n', function (err) {
+      if (err) throw err
+      console.log('log updated')
+    })
 }
 
 // tweet every four hours
