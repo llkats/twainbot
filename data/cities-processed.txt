@@ -1,0 +1,441 @@
+Dubai
+Kabul
+Yerevan
+Luanda
+Buenos Aires
+Rosario
+Mendoza
+Córdoba
+Vienna
+Perth
+Adelaide
+Sydney
+Melbourne
+Brisbane
+Baku
+Dhaka
+Chittagong
+Khulna
+Brussels
+Ouagadougou
+Sofia
+Santa Cruz de la Sierra
+La Paz
+Cochabamba
+São Luís
+Recife
+Maceió
+Fortaleza
+Belém
+São Paulo
+Salvador
+Rio de Janeiro
+Porto Alegre
+Nova Iguaçu
+Guarulhos
+Goiânia
+Duque de Caxias
+Curitiba
+Campinas
+Brasília
+Belo Horizonte
+Manaus
+Minsk
+Calgary
+Montréal
+Ottawa
+Toronto
+Vancouver
+Mbuji-Mayi
+Lubumbashi
+Kinshasa
+Brazzaville
+Abobo
+Abidjan
+Santiago
+Yaoundé
+Douala
+Ürümqi
+Zhumadian
+Zhengzhou
+Yunfu
+Tongshan
+Xinyang
+Xianyang
+Xi’an
+Wuxi
+Wuhan
+Wenzhou
+Tianshui
+Tianjin
+Tangshan
+Taiyuan
+Tai’an
+Shiyan
+Shijiazhuang
+Shenzhen
+Shantou
+Shanghai
+Jieyang
+Qingdao
+Puyang
+Pingdingshan
+Nanning
+Nanjing
+Nanchong
+Nanchang
+Luoyang
+Guankou
+Lanzhou
+Kunming
+Kaifeng
+Jinan
+Huainan
+Huaibei
+Hefei
+Hangzhou
+Handan
+Guiyang
+Guangzhou
+Fuzhou
+Dayan
+Dalian
+Chongqing
+Chengdu
+Changzhou
+Changsha
+Beijing
+Baoding
+Suzhou
+Zhongshan
+Yueyang
+Shenyang
+Qiqihar
+Jilin
+Harbin
+Fushun
+Datong
+Changchun
+Benxi
+Baotou
+Anshan
+Changshu City
+Zhu Cheng City
+Ordos
+Medellín
+Cartagena
+Cali
+Bogotá
+Barranquilla
+Havana
+Prague
+München
+Köln
+Hamburg
+Berlin
+Copenhagen
+Santo Domingo
+Santiago de los Caballeros
+Algiers
+Quito
+Guayaquil
+Cairo
+Al Jīzah
+Alexandria
+Valencia
+Madrid
+Barcelona
+Addis Ababa
+Paris
+City of London
+London
+Birmingham
+Tbilisi
+Kumasi
+Accra
+Camayenne
+Conakry
+Guatemala City
+Kowloon
+Hong Kong
+Tegucigalpa
+Zagreb - Centar
+Port-au-Prince
+Budapest
+Medan
+Makassar
+Bandarlampung
+Tangerang
+Surabaya
+Semarang
+Palembang
+Padang
+Jakarta
+Depok
+Bogor
+Bekasi
+Bandung
+Masjid Jamie Baitul Muttaqien
+South Tangerang
+Dublin
+Jerusalem
+Vishākhapatnam
+Vijayawāda
+Vārānasi
+Vadodara
+Thāne
+Teni
+Sūrat
+Srinagar
+Solāpur
+Ranchi
+Rājkot
+Raigarh Fort
+Pune
+Pimpri
+Patna
+Nāsik
+Nāgpur
+Mysore
+Meerut
+Madurai
+Chennai
+Ludhiāna
+Lucknow
+Kānpur
+Kalyān
+Jodhpur
+Jaipur
+Jabalpur
+Indore
+Hyderabad
+Hubli
+Hāora
+Gwalior
+Gorakhpur
+Ghāziābād
+Guwāhāti
+Farīdābād
+Dombivli
+Delhi
+Coimbatore
+Chandigarh
+Kolkata
+Mumbai
+Bhopal
+Bangalore
+Aurangābād
+Amritsar
+Allahābād
+Ahmedabad
+Āgra
+Navi Mumbai
+Shivaji Nagar
+Erbil
+Baghdad
+Al Mawşil al Jadīdah
+Mosul
+Al Başrah
+Abū Ghurayb
+Al Başrat al Qadīmah
+Tehrān
+Tabrīz
+Shīrāz
+Qom
+Mashhad
+Karaj
+Ahvaz
+Eşfahān
+Turin
+Rome
+Napoli
+Milano
+Kingston
+Amman
+Yono
+Yokohama-shi
+Tokyo
+Ōsaka-shi
+Nagoya-shi
+Kyoto
+Kōbe-shi
+Kitakyūshū
+Kawasaki
+Hiroshima-shi
+Fukuoka-shi
+Sendai-shi
+Chiba
+Sapporo
+Saitama
+Sendai
+Nairobi
+Bishkek
+Phnom Penh
+Takeo
+Pyongyang
+Ulsan
+Daejeon
+Daegu
+Suigen
+Seoul
+Busan
+Bucheon
+Gwangju
+Goyang
+Incheon
+Seongnam
+Almaty
+Ra’s Bayrūt
+Beirut
+Monrovia
+Tripoli
+Sale
+Rabat
+Marrakesh
+Fès
+Casablanca
+Antananarivo
+Bamako
+Rangoon
+Mandalay
+Nay Pyi Taw
+Ulaanbaatar
+Gustavo A. Madero
+Gustavo A. Madero
+Puebla de Zaragoza
+Naucalpan de Juárez
+Iztapalapa
+Ecatepec
+Ciudad Nezahualcóyotl
+Mexico City
+Zapopan
+Tijuana
+Monterrey
+León
+Guadalajara
+Ciudad Juárez
+Chihuahua
+Johor Bahru
+Klang
+Kuala Lumpur
+Kota Bharu
+Kampung Baru Subang
+Maputo
+Zaria
+Port Harcourt
+Maiduguri
+Lagos
+Kano
+Kaduna
+Jos
+Ilorin
+Ibadan
+Benin City
+Aba
+Managua
+Kathmandu
+Lima
+Callao
+Arequipa
+Quezon City
+Manila
+Davao
+Budta
+Malingao
+Rāwalpindi
+Peshāwar
+Multān
+Lahore
+Karachi
+Hyderābād
+Gujrānwāla
+Faisalābād
+Warsaw
+Asunción
+Bucharest
+Belgrade
+Voronezh
+Volgograd
+Ufa
+Saratov
+Saint Petersburg
+Samara
+Rostov-na-Donu
+Perm’
+Nizhniy Novgorod
+Moscow
+Kazan
+Yekaterinburg
+Omsk
+Novosibirsk
+Krasnoyarsk
+Chelyabinsk
+Sulţānah
+Mecca
+Jeddah
+Riyadh
+Medina
+Omdurman
+Khartoum
+Stockholm
+Singapore
+Freetown
+Pikine
+Grand Dakar
+Dakar
+Mogadishu
+Aleppo
+Damascus
+Bangkok
+Konya
+İzmir
+Gaziantep
+Ankara
+Adana
+İstanbul
+Bursa
+Taipei
+Taichung
+Kaohsiung
+Dar es Salaam
+Odessa
+Kiev
+Kharkiv
+Donets’k
+Dnipropetrovsk
+Kampala
+Jacksonville
+Indianapolis
+Philadelphia
+Dallas
+Houston
+San Antonio
+Chicago
+Borough of Bronx
+Brooklyn
+Manhattan
+New York City
+Borough of Queens
+Phoenix
+Los Angeles
+San Diego
+San Francisco
+San Jose
+Montevideo
+Tashkent
+Valencia
+Maracay
+Maracaibo
+Caracas
+Barquisimeto
+Ho Chi Minh City
+Hanoi
+Sanaa
+Soweto
+Pretoria
+Port Elizabeth
+Johannesburg
+Durban
+Cape Town
+Lusaka
+Harare

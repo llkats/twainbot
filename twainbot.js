@@ -2,7 +2,6 @@ var fs = require('fs')
 var request = require('request')
 var waterfall = require('async').waterfall
 var Twitter = require('twitter')
-var cities = require('cities1000')
 var conf = require('./conf')
 
 var wordnikRequest = request.defaults({
@@ -27,26 +26,22 @@ var createTweet = function () {
         callback(null, adjective.word)
       })
     },
-    function getProperNoun (adjective, callback) {
-      wordnikRequest({
-        method: 'GET',
-        uri: 'words.json/randomWord?includePartOfSpeech=proper-noun&' + wordnikParams + wordnikKey
-      }, function (error, response, body) {
-        if (error) console.log(error)
+    function getCity (adjective, callback) {
+      fs.readFile('cities-processed.txt', {encoding: 'utf8'}, function (err, data) {
+        if (err) log('error grabbing city: ' + err)
 
-        var properNoun = JSON.parse(body)
+        var lines = data.split('\n')
+        var randoCity = lines[Math.floor(Math.random() * lines.length)]
 
-        var words = {
+        callback(null, {
           adjective: adjective,
-          properNoun: properNoun.word
-        }
-
-        callback(null, words)
+          city: randoCity
+        })
       })
     },
     function getOppositeNouns (words, callback) {
       var adj = words.adjective
-      var pnoun = words.properNoun
+      var city = words.city
 
       wordnikRequest({
         method: 'GET',
@@ -69,7 +64,7 @@ var createTweet = function () {
               if (response.statusCode === 200 && result.length > 0) {
                 callback(null, {
                   adjective: adj,
-                  properNoun: pnoun,
+                  city: city,
                   noun: word,
                   antonym: result[0].words[0]
                 })
@@ -84,8 +79,9 @@ var createTweet = function () {
     },
     function endResult (words) {
       if (words) {
-        postTweet('The most ' + words.adjective + ' ' + words.noun + ' ' + 'I ever spent was a ' + words.antonym + ' in ' + words.properNoun + '.')
+        postTweet('The most ' + words.adjective + ' ' + words.noun + ' ' + 'I ever spent was a ' + words.antonym + ' in ' + words.city + '.')
       } else {
+        // todo: write out the keys and values of the words object for a more helpful log error message
         log('no words found: ' + words)
       }
     }
@@ -115,7 +111,7 @@ var log = function (message) {
   var date = new Date()
   var datestring = date.getFullYear() + '' + (date.getMonth() + 1) + '' + date.getDay()
 
-  fs.appendFile(datestring + 'log.txt', date + ' - ' + message + '\n', function (err) {
+  fs.appendFile('log/' + datestring + 'log.txt', date + ' - ' + message + '\n', function (err) {
       if (err) throw err
       console.log('log updated')
     })

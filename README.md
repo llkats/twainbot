@@ -17,6 +17,8 @@ Then start the server:
 
 ## Credits
 
+City name list (`data/cities-processed.txt`) copied and gently formatted from [substack](http://substack.net/)'s [cities1000 dataset](https://github.com/substack/cities1000/).
+
 README development instructions shamelessly cribbed from [big boring system](https://github.com/ednapiranha/bigboringsystem).
 
 Big ups to the teams behind the [Twitter API](https://dev.twitter.com/overview/documentation) and the [Wordnik API](http://developer.wordnik.com/).
