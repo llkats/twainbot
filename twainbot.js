@@ -27,7 +27,7 @@ var createTweet = function () {
       })
     },
     function getCity (adjective, callback) {
-      fs.readFile('cities-processed.txt', {encoding: 'utf8'}, function (err, data) {
+      fs.readFile('data/cities-processed.txt', {encoding: 'utf8'}, function (err, data) {
         if (err) log('error grabbing city: ' + err)
 
         var lines = data.split('\n')
