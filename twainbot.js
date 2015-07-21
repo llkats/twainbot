@@ -108,13 +108,10 @@ var postTweet = function (quip) {
 }
 
 var log = function (message) {
-  var date = new Date()
-  var datestring = date.getFullYear() + '' + (date.getMonth() + 1) + '' + date.getDay()
+  // var date = new Date()
+  // var datestring = date.getFullYear() + '' + (date.getMonth() + 1) + '' + date.getDay()
 
-  fs.appendFile('log/' + datestring + 'log.txt', date + ' - ' + message + '\n', function (err) {
-      if (err) throw err
-      console.log('log updated')
-    })
+  process.stdout.write(message)
 }
 
 // tweet every four hours
