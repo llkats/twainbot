@@ -108,9 +108,6 @@ var postTweet = function (quip) {
 }
 
 var log = function (message) {
-  // var date = new Date()
-  // var datestring = date.getFullYear() + '' + (date.getMonth() + 1) + '' + date.getDay()
-
   process.stdout.write(message)
 }
 
