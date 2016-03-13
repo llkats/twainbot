@@ -16,7 +16,7 @@
     "san",
     "francisco"
   ],
-  "author": "Lydia Katsamberis <llkats@gmail.com>",
+  "author": "Lydia Kats <llkats@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "standard": "^3.11.1"

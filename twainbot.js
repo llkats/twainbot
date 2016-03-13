@@ -80,10 +80,10 @@ var createTweet = function () {
 
 var postTweet = function (quote) {
   var client = new Twitter({
-    consumer_key: conf.get('consumer_key'),
-    consumer_secret: conf.get('consumer_secret'),
-    access_token_key: conf.get('access_token_key'),
-    access_token_secret: conf.get('access_token_secret')
+    consumer_key: conf.get('consumer_key') || process.env.consumer_key,
+    consumer_secret: conf.get('consumer_secret') || process.env.consumer_secret,
+    access_token_key: conf.get('access_token_key') || process.env.access_token_key,
+    access_token_secret: conf.get('access_token_secret') || process.env.access_token_secret
   })
 
   client.post('statuses/update', {status: quote}, function (error, tweet, response) {
