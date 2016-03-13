@@ -1,0 +1,1068 @@
+{
+  "description": "List of adjectives and corresponding comparative and superaltive forms.",
+  "words": [{
+    "adjective": "angry",
+    "comparative": "angrier",
+    "superlative": "angriest"
+  },
+  {
+    "adjective": "bad",
+    "comparative": "worse",
+    "superlative": "worst"
+  },
+  {
+    "adjective": "beige",
+    "comparative": "beiger",
+    "superlative": "beigest"
+  },
+  {
+    "adjective": "big",
+    "comparative": "bigger",
+    "superlative": "biggest"
+  },
+  {
+    "adjective": "bitter",
+    "comparative": "bitterer",
+    "superlative": "bitterest"
+  },
+  {
+    "adjective": "black",
+    "comparative": "blacker",
+    "superlative": "blackest"
+  },
+  {
+    "adjective": "bland",
+    "comparative": "blander",
+    "superlative": "blandest"
+  },
+  {
+    "adjective": "bloody",
+    "comparative": "bloodier",
+    "superlative": "bloodiest"
+  },
+  {
+    "adjective": "blue",
+    "comparative": "bluer",
+    "superlative": "bluest"
+  },
+  {
+    "adjective": "bold",
+    "comparative": "bolder",
+    "superlative": "boldest"
+  },
+  {
+    "adjective": "bossy",
+    "comparative": "bossier",
+    "superlative": "bossiest"
+  },
+  {
+    "adjective": "brave",
+    "comparative": "braver",
+    "superlative": "bravest"
+  },
+  {
+    "adjective": "brief",
+    "comparative": "briefer",
+    "superlative": "briefest"
+  },
+  {
+    "adjective": "bright",
+    "comparative": "brighter",
+    "superlative": "brightest"
+  },
+  {
+    "adjective": "broad",
+    "comparative": "broader",
+    "superlative": "broadest"
+  },
+  {
+    "adjective": "brown",
+    "comparative": "browner",
+    "superlative": "brownest"
+  },
+  {
+    "adjective": "busy",
+    "comparative": "busier",
+    "superlative": "busiest"
+  },
+  {
+    "adjective": "calm",
+    "comparative": "calmer",
+    "superlative": "calmest"
+  },
+  {
+    "adjective": "cheap",
+    "comparative": "cheaper",
+    "superlative": "cheapest"
+  },
+  {
+    "adjective": "chewy",
+    "comparative": "chewier",
+    "superlative": "chewiest"
+  },
+  {
+    "adjective": "chubby",
+    "comparative": "chubbier",
+    "superlative": "chubbiest"
+  },
+  {
+    "adjective": "classy",
+    "comparative": "classier",
+    "superlative": "classiest"
+  },
+  {
+    "adjective": "clean",
+    "comparative": "cleaner",
+    "superlative": "cleanest"
+  },
+  {
+    "adjective": "clear",
+    "comparative": "clear",
+    "superlative": "clearest"
+  },
+  {
+    "adjective": "clever",
+    "comparative": "cleverer",
+    "superlative": "cleverest"
+  },
+  {
+    "adjective": "close",
+    "comparative": "closer",
+    "superlative": "closest"
+  },
+  {
+    "adjective": "cloudy",
+    "comparative": "cloudier",
+    "superlative": "cloudiest"
+  },
+  {
+    "adjective": "clumsy",
+    "comparative": "clumsier",
+    "superlative": "clumsiest"
+  },
+  {
+    "adjective": "coarse",
+    "comparative": "coarser",
+    "superlative": "coarsest"
+  },
+  {
+    "adjective": "cold",
+    "comparative": "colder",
+    "superlative": "coldest"
+  },
+  {
+    "adjective": "cool",
+    "comparative": "cooler",
+    "superlative": "coolest"
+  },
+  {
+    "adjective": "crazy",
+    "comparative": "crazier",
+    "superlative": "craziest"
+  },
+  {
+    "adjective": "creamy",
+    "comparative": "creamier",
+    "superlative": "creamiest"
+  },
+  {
+    "adjective": "creepy",
+    "comparative": "creepier",
+    "superlative": "creepiest"
+  },
+  {
+    "adjective": "crispy",
+    "comparative": "crispier",
+    "superlative": "crispiest"
+  },
+  {
+    "adjective": "cruel",
+    "comparative": "crueller",
+    "superlative": "cruellest"
+  },
+  {
+    "adjective": "crunchy",
+    "comparative": "crunchier",
+    "superlative": "crunchiest"
+  },
+  {
+    "adjective": "curly",
+    "comparative": "curly",
+    "superlative": "curliest"
+  },
+  {
+    "adjective": "curvy",
+    "comparative": "curvier",
+    "superlative": "curviest"
+  },
+  {
+    "adjective": "cute",
+    "comparative": "cuter",
+    "superlative": "cutest"
+  },
+  {
+    "adjective": "damp",
+    "comparative": "damper",
+    "superlative": "dampest"
+  },
+  {
+    "adjective": "dark",
+    "comparative": "darker",
+    "superlative": "darkest"
+  },
+  {
+    "adjective": "deadly",
+    "comparative": "deadlier",
+    "superlative": "deadliest"
+  },
+  {
+    "adjective": "deep",
+    "comparative": "deeper",
+    "superlative": "deepest"
+  },
+  {
+    "adjective": "dense",
+    "comparative": "denser",
+    "superlative": "densest"
+  },
+  {
+    "adjective": "dirty",
+    "comparative": "dirtier",
+    "superlative": "dirtiest"
+  },
+  {
+    "adjective": "dry",
+    "comparative": "drier",
+    "superlative": "driest"
+  },
+  {
+    "adjective": "dull",
+    "comparative": "duller",
+    "superlative": "dullest"
+  },
+  {
+    "adjective": "dumb",
+    "comparative": "dumber",
+    "superlative": "dumbest"
+  },
+  {
+    "adjective": "dusty",
+    "comparative": "dustier",
+    "superlative": "dustiest"
+  },
+  {
+    "adjective": "early",
+    "comparative": "earlier",
+    "superlative": "earliest"
+  },
+  {
+    "adjective": "easy",
+    "comparative": "easier",
+    "superlative": "easiest"
+  },
+  {
+    "adjective": "faint",
+    "comparative": "fainter",
+    "superlative": "faintest"
+  },
+  {
+    "adjective": "fair",
+    "comparative": "fairer",
+    "superlative": "fairest"
+  },
+  {
+    "adjective": "fancy",
+    "comparative": "fancier",
+    "superlative": "fanciest"
+  },
+  {
+    "adjective": "far",
+    "comparative": "farther",
+    "superlative": "farthest"
+  },
+  {
+    "adjective": "fast",
+    "comparative": "faster",
+    "superlative": "fastest"
+  },
+  {
+    "adjective": "fat",
+    "comparative": "fatter",
+    "superlative": "fattest"
+  },
+  {
+    "adjective": "few",
+    "comparative": "fewer",
+    "superlative": "fewest"
+  },
+  {
+    "adjective": "fierce",
+    "comparative": "fiercer",
+    "superlative": "fiercest"
+  },
+  {
+    "adjective": "filthy",
+    "comparative": "filthier",
+    "superlative": "filthiest"
+  },
+  {
+    "adjective": "fine",
+    "comparative": "finer",
+    "superlative": "finest"
+  },
+  {
+    "adjective": "firm",
+    "comparative": "firmer",
+    "superlative": "firmest"
+  },
+  {
+    "adjective": "fit",
+    "comparative": "fitter",
+    "superlative": "fittest"
+  },
+  {
+    "adjective": "flaky",
+    "comparative": "flakier",
+    "superlative": "flakiest"
+  },
+  {
+    "adjective": "flat",
+    "comparative": "flatter",
+    "superlative": "flattest"
+  },
+  {
+    "adjective": "fresh",
+    "comparative": "fresher",
+    "superlative": "freshest"
+  },
+  {
+    "adjective": "friendly",
+    "comparative": "friendlier",
+    "superlative": "friendliest"
+  },
+  {
+    "adjective": "full",
+    "comparative": "fuller",
+    "superlative": "fullest"
+  },
+  {
+    "adjective": "funny",
+    "comparative": "funnier",
+    "superlative": "funniest"
+  },
+  {
+    "adjective": "gentle",
+    "comparative": "gentler",
+    "superlative": "gentlest"
+  },
+  {
+    "adjective": "gloomy",
+    "comparative": "gloomier",
+    "superlative": "gloomiest"
+  },
+  {
+    "adjective": "gold",
+    "comparative": "golder",
+    "superlative": "goldest"
+  },
+  {
+    "adjective": "good",
+    "comparative": "better",
+    "superlative": "best"
+  },
+  {
+    "adjective": "grand",
+    "comparative": "grander",
+    "superlative": "grandest"
+  },
+  {
+    "adjective": "grave",
+    "comparative": "graver",
+    "superlative": "gravest"
+  },
+  {
+    "adjective": "gray",
+    "comparative": "grayer",
+    "superlative": "grayest"
+  },
+  {
+    "adjective": "greasy",
+    "comparative": "greasier",
+    "superlative": "greasiest"
+  },
+  {
+    "adjective": "great",
+    "comparative": "greater",
+    "superlative": "greatest"
+  },
+  {
+    "adjective": "greedy",
+    "comparative": "greedier",
+    "superlative": "greediest"
+  },
+  {
+    "adjective": "green",
+    "comparative": "greener",
+    "superlative": "greenest"
+  },
+  {
+    "adjective": "gross",
+    "comparative": "grosser",
+    "superlative": "grossest"
+  },
+  {
+    "adjective": "guilty",
+    "comparative": "guilter",
+    "superlative": "guiltiest"
+  },
+  {
+    "adjective": "hairy",
+    "comparative": "hairier",
+    "superlative": "hairiest"
+  },
+  {
+    "adjective": "handy",
+    "comparative": "handier",
+    "superlative": "handiest"
+  },
+  {
+    "adjective": "happy",
+    "comparative": "happier",
+    "superlative": "happiest"
+  },
+  {
+    "adjective": "hard",
+    "comparative": "harder",
+    "superlative": "hardest"
+  },
+  {
+    "adjective": "harsh",
+    "comparative": "harsher",
+    "superlative": "harshest"
+  },
+  {
+    "adjective": "healthy",
+    "comparative": "healthier",
+    "superlative": "healthiest"
+  },
+  {
+    "adjective": "heavy",
+    "comparative": "heavier",
+    "superlative": "heaviest"
+  },
+  {
+    "adjective": "high",
+    "comparative": "higher",
+    "superlative": "highest"
+  },
+  {
+    "adjective": "hip",
+    "comparative": "hipper",
+    "superlative": "hippest"
+  },
+  {
+    "adjective": "hot",
+    "comparative": "hotter",
+    "superlative": "hottest"
+  },
+  {
+    "adjective": "humble",
+    "comparative": "humbler",
+    "superlative": "humblest"
+  },
+  {
+    "adjective": "hungry",
+    "comparative": "hungrier",
+    "superlative": "hungriest"
+  },
+  {
+    "adjective": "icy",
+    "comparative": "icier",
+    "superlative": "iciest"
+  },
+  {
+    "adjective": "itchy",
+    "comparative": "itchier",
+    "superlative": "itchiest"
+  },
+  {
+    "adjective": "juicy",
+    "comparative": "juicier",
+    "superlative": "juiciest"
+  },
+  {
+    "adjective": "kind",
+    "comparative": "kinder",
+    "superlative": "kindest"
+  },
+  {
+    "adjective": "large",
+    "comparative": "larger",
+    "superlative": "largest"
+  },
+  {
+    "adjective": "late",
+    "comparative": "later",
+    "superlative": "latest"
+  },
+  {
+    "adjective": "lazy",
+    "comparative": "lazier",
+    "superlative": "laziest"
+  },
+  {
+    "adjective": "light",
+    "comparative": "lighter",
+    "superlative": "lightest"
+  },
+  {
+    "adjective": "likely",
+    "comparative": "likelier",
+    "superlative": "likeliest"
+  },
+  {
+    "adjective": "little",
+    "comparative": "littler",
+    "superlative": "littlest"
+  },
+  {
+    "adjective": "lively",
+    "comparative": "livelier",
+    "superlative": "liveliest"
+  },
+  {
+    "adjective": "lonely",
+    "comparative": "lonlier",
+    "superlative": "loneliest"
+  },
+  {
+    "adjective": "long",
+    "comparative": "longer",
+    "superlative": "longest"
+  },
+  {
+    "adjective": "loud",
+    "comparative": "louder",
+    "superlative": "loudest"
+  },
+  {
+    "adjective": "lovely",
+    "comparative": "lovelier",
+    "superlative": "loveliest"
+  },
+  {
+    "adjective": "low",
+    "comparative": "lower",
+    "superlative": "lowest"
+  },
+  {
+    "adjective": "mad",
+    "comparative": "madder",
+    "superlative": "maddest"
+  },
+  {
+    "adjective": "mean",
+    "comparative": "meaner",
+    "superlative": "meanest"
+  },
+  {
+    "adjective": "messy",
+    "comparative": "messier",
+    "superlative": "messiest"
+  },
+  {
+    "adjective": "mild",
+    "comparative": "milder",
+    "superlative": "mildest"
+  },
+  {
+    "adjective": "moist",
+    "comparative": "moister",
+    "superlative": "moistest"
+  },
+  {
+    "adjective": "narrow",
+    "comparative": "narrower",
+    "superlative": "narrowest"
+  },
+  {
+    "adjective": "nasty",
+    "comparative": "nastier",
+    "superlative": "nastiest"
+  },
+  {
+    "adjective": "naughty",
+    "comparative": "naughtier",
+    "superlative": "naughtiest"
+  },
+  {
+    "adjective": "near",
+    "comparative": "nearer",
+    "superlative": "nearest"
+  },
+  {
+    "adjective": "neat",
+    "comparative": "neater",
+    "superlative": "neatest"
+  },
+  {
+    "adjective": "needy",
+    "comparative": "needier",
+    "superlative": "neediest"
+  },
+  {
+    "adjective": "new",
+    "comparative": "newer",
+    "superlative": "newest"
+  },
+  {
+    "adjective": "nice",
+    "comparative": "nicer",
+    "superlative": "nicest"
+  },
+  {
+    "adjective": "noisy",
+    "comparative": "noisier",
+    "superlative": "noisiest"
+  },
+  {
+    "adjective": "odd",
+    "comparative": "odder",
+    "superlative": "oddest"
+  },
+  {
+    "adjective": "oily",
+    "comparative": "oilier",
+    "superlative": "oiliest"
+  },
+  {
+    "adjective": "old",
+    "comparative": "older",
+    "superlative": "oldest"
+  },
+  {
+    "adjective": "orange",
+    "comparative": "oranger",
+    "superlative": "orangest"
+  },
+  {
+    "adjective": "pink",
+    "comparative": "pinker",
+    "superlative": "pinkest"
+  },
+  {
+    "adjective": "plain",
+    "comparative": "plainer",
+    "superlative": "plainest"
+  },
+  {
+    "adjective": "polite",
+    "comparative": "politer",
+    "superlative": "politest"
+  },
+  {
+    "adjective": "poor",
+    "comparative": "poorer",
+    "superlative": "poorest"
+  },
+  {
+    "adjective": "pretty",
+    "comparative": "prettier",
+    "superlative": "prettiest"
+  },
+  {
+    "adjective": "proud",
+    "comparative": "prouder",
+    "superlative": "proudest"
+  },
+  {
+    "adjective": "pure",
+    "comparative": "purer",
+    "superlative": "purest"
+  },
+  {
+    "adjective": "purple",
+    "comparative": "purpler",
+    "superlative": "purplest"
+  },
+  {
+    "adjective": "quick",
+    "comparative": "quicker",
+    "superlative": "quickest"
+  },
+  {
+    "adjective": "quiet",
+    "comparative": "quieter",
+    "superlative": "quietest"
+  },
+  {
+    "adjective": "rain",
+    "comparative": "rainier",
+    "superlative": "rainiest"
+  },
+  {
+    "adjective": "rare",
+    "comparative": "rarer",
+    "superlative": "rarest"
+  },
+  {
+    "adjective": "raw",
+    "comparative": "rawer",
+    "superlative": "rawest"
+  },
+  {
+    "adjective": "red",
+    "comparative": "redder",
+    "superlative": "reddest"
+  },
+  {
+    "adjective": "rich",
+    "comparative": "richer",
+    "superlative": "richest"
+  },
+  {
+    "adjective": "ripe",
+    "comparative": "riper",
+    "superlative": "ripest"
+  },
+  {
+    "adjective": "risky",
+    "comparative": "riskier",
+    "superlative": "riskiest"
+  },
+  {
+    "adjective": "roomy",
+    "comparative": "roomier",
+    "superlative": "roomiest"
+  },
+  {
+    "adjective": "rough",
+    "comparative": "rougher",
+    "superlative": "roughest"
+  },
+  {
+    "adjective": "rude",
+    "comparative": "ruder",
+    "superlative": "rudest"
+  },
+  {
+    "adjective": "rusty",
+    "comparative": "rustier",
+    "superlative": "rustiest"
+  },
+  {
+    "adjective": "sad",
+    "comparative": "sadder",
+    "superlative": "saddest"
+  },
+  {
+    "adjective": "safe",
+    "comparative": "safer",
+    "superlative": "safest"
+  },
+  {
+    "adjective": "salty",
+    "comparative": "saltier",
+    "superlative": "saltiest"
+  },
+  {
+    "adjective": "sane",
+    "comparative": "saner",
+    "superlative": "sanest"
+  },
+  {
+    "adjective": "scary",
+    "comparative": "scarier",
+    "superlative": "scariest"
+  },
+  {
+    "adjective": "shallow",
+    "comparative": "shallower",
+    "superlative": "shallowest"
+  },
+  {
+    "adjective": "sharp",
+    "comparative": "sharper",
+    "superlative": "sharpest"
+  },
+  {
+    "adjective": "shiny",
+    "comparative": "shinier",
+    "superlative": "shiniest"
+  },
+  {
+    "adjective": "short",
+    "comparative": "shorter",
+    "superlative": "shortest"
+  },
+  {
+    "adjective": "shy",
+    "comparative": "shyer",
+    "superlative": "shyest"
+  },
+  {
+    "adjective": "silly",
+    "comparative": "sillier",
+    "superlative": "silliest"
+  },
+  {
+    "adjective": "silver",
+    "comparative": "silverier",
+    "superlative": "silveriest"
+  },
+  {
+    "adjective": "simple",
+    "comparative": "simpler",
+    "superlative": "simplest"
+  },
+  {
+    "adjective": "sincere",
+    "comparative": "sincerer",
+    "superlative": "sincerest"
+  },
+  {
+    "adjective": "skinny",
+    "comparative": "skinnier",
+    "superlative": "skinniest"
+  },
+  {
+    "adjective": "sleepy",
+    "comparative": "sleepier",
+    "superlative": "sleepiest"
+  },
+  {
+    "adjective": "slim",
+    "comparative": "slimmer",
+    "superlative": "slimmest"
+  },
+  {
+    "adjective": "slimy",
+    "comparative": "slimier",
+    "superlative": "slimiest"
+  },
+  {
+    "adjective": "slow",
+    "comparative": "slower",
+    "superlative": "slowest"
+  },
+  {
+    "adjective": "small",
+    "comparative": "smaller",
+    "superlative": "smallest"
+  },
+  {
+    "adjective": "smart",
+    "comparative": "smarter",
+    "superlative": "smartest"
+  },
+  {
+    "adjective": "smelly",
+    "comparative": "smellier",
+    "superlative": "smelliest"
+  },
+  {
+    "adjective": "smoky",
+    "comparative": "smokier",
+    "superlative": "smokiest"
+  },
+  {
+    "adjective": "smooth",
+    "comparative": "smoother",
+    "superlative": "smoothest"
+  },
+  {
+    "adjective": "snowy",
+    "comparative": "snowier",
+    "superlative": "snowiest"
+  },
+  {
+    "adjective": "soft",
+    "comparative": "softer",
+    "superlative": "softest"
+  },
+  {
+    "adjective": "soon",
+    "comparative": "sooner",
+    "superlative": "soonest"
+  },
+  {
+    "adjective": "sore",
+    "comparative": "sorer",
+    "superlative": "sorest"
+  },
+  {
+    "adjective": "sorry",
+    "comparative": "sorrier",
+    "superlative": "sorriest"
+  },
+  {
+    "adjective": "sour",
+    "comparative": "sourer",
+    "superlative": "sourest"
+  },
+  {
+    "adjective": "spicy",
+    "comparative": "spicier",
+    "superlative": "spiciest"
+  },
+  {
+    "adjective": "steep",
+    "comparative": "steeper",
+    "superlative": "steepest"
+  },
+  {
+    "adjective": "stingy",
+    "comparative": "stingier",
+    "superlative": "stingiest"
+  },
+  {
+    "adjective": "strange",
+    "comparative": "stranger",
+    "superlative": "strangest"
+  },
+  {
+    "adjective": "strict",
+    "comparative": "stricter",
+    "superlative": "strictest"
+  },
+  {
+    "adjective": "strong",
+    "comparative": "stronger",
+    "superlative": "strongest"
+  },
+  {
+    "adjective": "sunny",
+    "comparative": "sunnier",
+    "superlative": "sunniest"
+  },
+  {
+    "adjective": "sweaty",
+    "comparative": "sweatier",
+    "superlative": "sweatiest"
+  },
+  {
+    "adjective": "sweet",
+    "comparative": "sweeter",
+    "superlative": "sweetest"
+  },
+  {
+    "adjective": "tall",
+    "comparative": "taller",
+    "superlative": "tallest"
+  },
+  {
+    "adjective": "tan",
+    "comparative": "tanner",
+    "superlative": "tannest"
+  },
+  {
+    "adjective": "tasty",
+    "comparative": "tastier",
+    "superlative": "tastiest"
+  },
+  {
+    "adjective": "thick",
+    "comparative": "thicker",
+    "superlative": "thickest"
+  },
+  {
+    "adjective": "thin",
+    "comparative": "thinner",
+    "superlative": "thinnest"
+  },
+  {
+    "adjective": "thirsty",
+    "comparative": "thirstier",
+    "superlative": "thirstiest"
+  },
+  {
+    "adjective": "tiny",
+    "comparative": "tinier",
+    "superlative": "tiniest"
+  },
+  {
+    "adjective": "tough",
+    "comparative": "tougher",
+    "superlative": "toughest"
+  },
+  {
+    "adjective": "true",
+    "comparative": "truer",
+    "superlative": "truest"
+  },
+  {
+    "adjective": "ugly",
+    "comparative": "uglier",
+    "superlative": "ugliest"
+  },
+  {
+    "adjective": "warm",
+    "comparative": "warmer",
+    "superlative": "warmest"
+  },
+  {
+    "adjective": "weak",
+    "comparative": "weaker",
+    "superlative": "weakest"
+  },
+  {
+    "adjective": "wealthy",
+    "comparative": "wealthier",
+    "superlative": "wealthiest"
+  },
+  {
+    "adjective": "weird",
+    "comparative": "weirder",
+    "superlative": "weirdest"
+  },
+  {
+    "adjective": "wet",
+    "comparative": "wetter",
+    "superlative": "wettest"
+  },
+  {
+    "adjective": "wide",
+    "comparative": "wider",
+    "superlative": "widest"
+  },
+  {
+    "adjective": "white",
+    "comparative": "whiter",
+    "superlative": "whitest"
+  },
+  {
+    "adjective": "wild",
+    "comparative": "wilder",
+    "superlative": "wildest"
+  },
+  {
+    "adjective": "windy",
+    "comparative": "windier",
+    "superlative": "windiest"
+  },
+  {
+    "adjective": "wise",
+    "comparative": "wiser",
+    "superlative": "wisest"
+  },
+  {
+    "adjective": "worldly",
+    "comparative": "worldlier",
+    "superlative": "worldliest"
+  },
+  {
+    "adjective": "worthy",
+    "comparative": "worthier",
+    "superlative": "worthiest"
+  },
+  {
+    "adjective": "yellow",
+    "comparative": "yellower",
+    "superlative": "yellowest"
+  },
+  {
+    "adjective": "young",
+    "comparative": "younger",
+    "superlative": "youngest"
+  }]
+}

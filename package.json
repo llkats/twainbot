@@ -22,11 +22,10 @@
     "standard": "^3.11.1"
   },
   "dependencies": {
-    "async": "^1.0.0",
     "cities1000": "0.0.0",
+    "corpora-project": "^0.1.2",
     "forever": "^0.14.1",
     "nconf": "^0.7.1",
-    "request": "^2.56.0",
     "twitter": "^1.2.5"
   }
 }

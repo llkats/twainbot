@@ -1,94 +1,85 @@
 var fs = require('fs')
-var request = require('request')
-var waterfall = require('async').waterfall
+var util = require('util')
+
 var Twitter = require('twitter')
+var corpora = require('corpora-project')
 var conf = require('./conf')
 
-var wordnikRequest = request.defaults({
-  baseUrl: 'http://api.wordnik.com:80/v4/'
-})
-
-var wordnikKey = conf.get('wordnik_api_key')
-
-var wordnikParams = 'hasDictionaryDef=true&minCorpusCount=20&maxCorpusCount=-1&minDictionaryCount=10&maxDictionaryCount=-1&minLength=2&maxLength=12&api_key='
-
-var createTweet = function () {
-  waterfall([
-    function getAdjective (callback) {
-      wordnikRequest({
-        method: 'GET',
-        uri: 'words.json/randomWord?includePartOfSpeech=adjective&' + wordnikParams + wordnikKey
-      }, function (error, response, body) {
-        if (error) console.log(error)
-
-        var adjective = JSON.parse(body)
-
-        callback(null, adjective.word)
-      })
-    },
-    function getCity (adjective, callback) {
-      fs.readFile('data/cities-processed.txt', {encoding: 'utf8'}, function (err, data) {
-        if (err) log('error grabbing city: ' + err)
-
-        var lines = data.split('\n')
-        var randoCity = lines[Math.floor(Math.random() * lines.length)]
-
-        callback(null, {
-          adjective: adjective,
-          city: randoCity
-        })
-      })
-    },
-    function getOppositeNouns (words, callback) {
-      var adj = words.adjective
-      var city = words.city
-
-      wordnikRequest({
-        method: 'GET',
-        uri: 'words.json/randomWords?includePartOfSpeech=noun&excludePartOfSpeech=proper-noun,noun-plural,proper-noun-plural&limit=100&' + wordnikParams + wordnikKey
-      }, function (error, response, body) {
-        if (error) console.log(error)
-
-        if (response.statusCode === 200) {
-          var wordlist = JSON.parse(body)
-
-          var findOpposite = function () {
-            var word = wordlist.shift().word
-            wordnikRequest({
-              method: 'GET',
-              uri: 'word.json/' + word + '/relatedWords?relationshipTypes=antonym&useCanonical=true&limitPerRelationshipType=10&api_key=' + wordnikKey
-            }, function (error, response, body) {
-              if (error) console.log(error)
-
-              var result = JSON.parse(body)
-              if (response.statusCode === 200 && result.length > 0) {
-                callback(null, {
-                  adjective: adj,
-                  city: city,
-                  noun: word,
-                  antonym: result[0].words[0]
-                })
-              } else {
-                findOpposite()
-              }
-            })
-          }
-          findOpposite()
-        }
-      })
-    },
-    function endResult (words) {
-      if (words) {
-        postTweet('The most ' + words.adjective + ' ' + words.noun + ' ' + 'I ever spent was a ' + words.antonym + ' in ' + words.city + '.')
-      } else {
-        // todo: write out the keys and values of the words object for a more helpful log error message
-        log('no words found: ' + words)
-      }
-    }
-  ])
+// return a random index from the supplied array
+var randomIndex = function (arr) {
+  return Math.floor(Math.random() * (arr.length + 1))
 }
 
-var postTweet = function (quip) {
+var getVerb = function () {
+  var verbs = corpora.getFile('words', 'verbs').verbs
+
+  return verbs[randomIndex(verbs)].past
+}
+
+var getSuperlative = function () {
+  var comparatives = fs.readFileSync('data/superlatives.json', {encoding: 'utf8'})
+  var superlatives = JSON.parse(comparatives).words
+
+  return superlatives[randomIndex(superlatives)].superlative
+}
+
+var getOppositeNouns = function () {
+  var opposites = fs.readFileSync('data/opposites.json', {encoding: 'utf8'})
+  var words = JSON.parse(opposites).opposites
+  var selection = words[randomIndex(words)]
+  return [selection[0], selection[1]]
+}
+
+var createTweet = function () {
+  var verb = getVerb()
+  var superlative = getSuperlative()
+  var opposites = getOppositeNouns()
+
+
+  // switch up the order of the opposites every now and then
+  var flippyfloppy = Date.now() % 2
+  var noun = flippyfloppy ? opposites[0] : opposites[1]
+  var opposite = flippyfloppy ? opposites[1] : opposites[0]
+  var article = ''
+
+  switch (opposite.charAt(0)) {
+    case 'a' :
+      article = 'an'
+      break
+    case 'e' :
+      article = 'an'
+      break
+    case 'i' :
+      article = 'an'
+      break
+    case 'o' :
+      article = 'an'
+      break
+    case 'u' :
+      article = 'an'
+      break
+    default :
+      article = 'a'
+  }
+
+  fs.readFile('data/cities-processed.txt', {encoding: 'utf8'}, function (err, data) {
+    if (err) console.log('error grabbing city: ' + err)
+
+    var lines = data.split('\n')
+    var city = lines[Math.floor(Math.random() * lines.length)]
+
+    if (verb && superlative && opposites && city) {
+      var quote = util.format('The %s %s I ever %s was %s %s in %s.', superlative, noun, verb, article, opposite, city)
+
+      if (quote.length < 141) {
+        console.log(quote)
+        // postTweet(quote)
+      }
+    }
+  })
+}
+
+var postTweet = function (quote) {
 
   var client = new Twitter({
     consumer_key: conf.get('consumer_key'),
@@ -97,27 +88,22 @@ var postTweet = function (quip) {
     access_token_secret: conf.get('access_token_secret')
   })
 
-  client.post('statuses/update', {status: quip}, function (error, tweet, response) {
+  client.post('statuses/update', {status: quote}, function (error, tweet, response) {
     if (error) {
-      log('tweeting: ' + error + ' ' + response)
+      console.log('error: ' + error + ' ' + response)
+    } else {
+      console.log('tweeted: ' + tweet)
     }
-
-    log('tweeted: ' + quip)
-    console.log(quip)
   })
-}
-
-var log = function (message) {
-  process.stdout.write(message)
 }
 
 // tweet every four hours
 var interval = 1000 * 60 * 60 * 4
 var init = function () {
   createTweet()
-  setInterval(function () {
-    createTweet()
-  }, interval)
+  // setInterval(function () {
+  //   createTweet()
+  // }, interval)
 }
 
 init()
