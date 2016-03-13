@@ -27,6 +27,7 @@ var getOppositeNouns = function () {
   var opposites = fs.readFileSync('data/opposites.json', {encoding: 'utf8'})
   var words = JSON.parse(opposites).opposites
   var selection = words[randomIndex(words)]
+
   return [selection[0], selection[1]]
 }
 
@@ -34,7 +35,6 @@ var createTweet = function () {
   var verb = getVerb()
   var superlative = getSuperlative()
   var opposites = getOppositeNouns()
-
 
   // switch up the order of the opposites every now and then
   var flippyfloppy = Date.now() % 2
@@ -72,15 +72,13 @@ var createTweet = function () {
       var quote = util.format('The %s %s I ever %s was %s %s in %s.', superlative, noun, verb, article, opposite, city)
 
       if (quote.length < 141) {
-        console.log(quote)
-        // postTweet(quote)
+        postTweet(quote)
       }
     }
   })
 }
 
 var postTweet = function (quote) {
-
   var client = new Twitter({
     consumer_key: conf.get('consumer_key'),
     consumer_secret: conf.get('consumer_secret'),
@@ -101,9 +99,9 @@ var postTweet = function (quote) {
 var interval = 1000 * 60 * 60 * 4
 var init = function () {
   createTweet()
-  // setInterval(function () {
-  //   createTweet()
-  // }, interval)
+  setInterval(function () {
+    createTweet()
+  }, interval)
 }
 
 init()
