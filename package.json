@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "cities1000": "0.0.0",
-    "corpora-project": "^0.1.2",
     "forever": "^0.14.1",
     "nconf": "^0.7.1",
     "twitter": "^1.2.5"

@@ -2,7 +2,7 @@ var fs = require('fs')
 var util = require('util')
 
 var Twitter = require('twitter')
-var corpora = require('corpora-project')
+var corpora = require('./data/corpora-project')
 var conf = require('./conf')
 
 // return a random index from the supplied array
